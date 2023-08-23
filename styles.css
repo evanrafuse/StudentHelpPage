@@ -1,0 +1,60 @@
+body {
+  font-family: Comic Sans MS;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* Header Section */
+#headerText {
+  font-size: larger;
+}
+
+#headerSubtext {
+  font-size: large;
+}
+
+/* RA Phones */
+.raPhoneSection {
+  margin-top: 30px;
+}
+.raPhones {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Good 2 Talk */
+.good2Talk {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Phone Sections */
+h5, h3, p {
+  margin: 0px;
+}
+.phoneSection {
+  margin: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #F18F01;
+  font-size: x-large;
+}
+
+.iconLink {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 4em;
+}
+
+@media only screen and (max-width: 800px) {
+  .raPhones {
+    flex-direction: column;
+  }
+}
