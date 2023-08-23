@@ -14,7 +14,7 @@ body {
 }
 
 #headerSubtext {
-  font-size: large;
+  font-size: small;
 }
 
 /* RA Phones */
@@ -69,4 +69,26 @@ a {
   .raPhones {
     flex-direction: column;
   }
+}
+
+.arrow-2 {
+  position: sticky;
+  bottom: 0;
+  right: 30;
+  font-size: 50px;
+  opacity: 0.5;
+  color: #F18F01;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-timing-function: linear;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
 }
